@@ -6,11 +6,11 @@
 }
 
 body{
-    background-image: url(images/bg2.png);
     background-color: rgb(136, 187, 255);
     background-size: 100%;
     font-family: 'Montserrat', sans-serif;
     color:#f1f1f1;
+    cursor: url('images/pesawat.png'), auto;
 }
 
 html{
@@ -78,11 +78,10 @@ html{
     font-size: 2em;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 0.15em solid white;
     width: 0;
+    background-color: #000000;
     animation: typing-range 3s steps(30, end) 1, blink 0.8s step-end infinite;
     animation-fill-mode: forwards;
-    background-color: black;
     color: white;
     padding: 10px;
     display: inline-block;
@@ -106,6 +105,8 @@ html{
     flex-direction: column;
     position: relative;
     margin: 0 auto;
+    background-color: #223753;
+    padding: 20px;
 }
 
 
